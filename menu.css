@@ -1,0 +1,177 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+	 
+}
+body{
+	min-height: 100vh;
+}
+
+.bg_image{
+	  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(tmbg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    z-index: -1;
+}
+
+.contact{
+
+	height: 20px;
+	width: 100vw;
+	background-color: #525252;
+	display: flex;
+	display: flex;
+	justify-content: space-between; 
+	align-items: center; 
+	padding: 0 10px;
+	position: relative; 
+	z-index: 1;
+	
+	
+	
+}
+.contact p {
+	color: white;
+	margin-right: 1120px; 
+	opacity: 90%;
+	cursor: pointer;
+}
+
+
+.is i {
+	color: white;
+	opacity: 90%;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+li, a, button{
+	font-family: fantasy;
+	font-weight: 500;
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 1%;
+	background-color: #FEFDED;
+}
+.main_logo{
+display: flex;
+
+}
+#icon{
+	font-size: 50px;
+	cursor: pointer;
+	color: red;
+
+}
+.logo{
+	font-family: fantasy;
+	font-size: 20px;
+	cursor: pointer;
+	margin: 10px;
+	padding: 5px;
+}
+
+.nav_links{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+
+.nav_links li{
+	display: inline-block;
+	padding: 6px 20px;
+}
+.nav_links li a, .btn button {
+	padding: 12px 20px; 
+}
+.nav_links li a{
+	
+	background-color: rgba(254, 250, 246, 0.1 );
+	border: none;
+	border-radius: 60px;
+	transition:  all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+	background-color: #CCD3CA;
+}
+
+.btn button{
+	padding: 9px 25px;
+	background-color: rgba(254, 250, 246, 0.1 );
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition:  all 0.3s ease 0s;
+}
+.btn button:hover{
+	color: white;
+	background-color: red;
+}
+
+.menu-tabs{
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 25px;
+}
+.menu-tabs input[type="radio"] {
+	display: none;
+}
+.menu-tabs label {
+	padding: 25px;
+	background: #e2e2e2;
+	font-weight: bold;
+
+}
+.menu-tabs .menu-content{
+	width: 100%;
+	padding: 20px;
+	background: #fff;
+	order: 1;
+	display: none;
+
+}
+.menu-tabs h3{
+	font-size: 1rem;
+}
+
+.menu-tabs input[type="radio"]:checked + label + .menu-content {
+	display: block;
+}
+
+.menu-tabs input[type="radio"]:checked + label{
+	background: #fff;
+}
+h3{
+	text-align: center;
+		
+
+
+}
+.starter-menu li{
+	font-size: 25px;
+	font-weight: 0;
+	font-family: Georgia;
+	list-style: none;
+	padding: 5px;
+}
+span{
+
+	
+}
